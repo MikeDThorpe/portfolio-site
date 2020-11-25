@@ -1,0 +1,31 @@
+.hide-tablet {
+    display: none;
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+}
+.hero-section-content {
+    text-align: left;
+    width: 50%;
+}
+.hero-section-image {
+    width: 50%;
+}
+.hero-section-cta {
+    justify-content: flex-start;
+}
+.my-toolbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+.logo-grid {
+    width: 40%;
+    margin-bottom: 0px;
+}
+.my-toolbox-content {
+    width: 50%;
+}
+

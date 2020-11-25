@@ -1,0 +1,15 @@
+main {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.hide-mobile {
+    display: none;
+}
+.global-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.global-padding {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}

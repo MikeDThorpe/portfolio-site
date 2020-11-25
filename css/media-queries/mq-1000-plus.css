@@ -1,0 +1,27 @@
+.global-container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.hide-desktop {
+    display: none;
+}
+header nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-block-section {
+    grid-template-columns:  1fr 1fr 1fr;
+    column-gap: 45px;
+}
+.footer-section {
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer nav {
+    margin: 0;
+    height: fit-content;
+    width: 400px;
+    flex-direction: row;
+}
