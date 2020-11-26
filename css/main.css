@@ -1,23 +1,23 @@
 .hero-section {
     width: 100%;
-    margin-top: 75px;
-    margin-bottom: 100px;
     text-align: center;
 }
 .hero-section-content {
     margin-bottom: 75px;
 }
 .hero-section-content p {
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 .hero-section-cta {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
 }
 .hero-section-image {
     width: 100%;
+    margin-bottom: 75px;
 }
 .my-toolbox {
     padding-top: 75px;
@@ -69,9 +69,16 @@
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
-.icon-block img {
+.icon-block-image-container {
     width: 70%;
-    margin-bottom: 40px;
+    height: 150px;
+    margin: 0  auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+.icon-block img {
+    width: 100%;
 }
 .accordion-section {
     margin-top: 50px;

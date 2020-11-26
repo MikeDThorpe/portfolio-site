@@ -3,11 +3,13 @@
 }
 .hero-section {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .hero-section-content {
+    order: -1;
     text-align: left;
-    width: 50%;
+    width: 40%;
 }
 .hero-section-image {
     width: 50%;

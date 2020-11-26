@@ -18,7 +18,9 @@
     <title>A Web Developer Named Mike | Web Developer in Sheffield</title>
 </head>
 <body>
+
     <main>
+
         <!-- header -->
         <header class="global-container">
             <div class="logo-container">
@@ -26,29 +28,44 @@
                     <img src="/assets/logo-code-solid.svg" alt="self-closing html tag">
                 </div>
             </div>
-            <div class="hamburger hide-desktop"></div>
+            <div onclick="openNav()"class="hamburger hide-desktop"></div>
             <nav class="text-blue-grey font-500">
                 <a class="text-grey" href="about.html">About</a>
                 <a class="text-grey"href="experience.html">Experience</a>
                 <a class="text-grey"href="portfolio.html">My portfolio</a>
-                <a href="contact.html"><button class="button-header">Contact me</button></a>
+                <a href="contact.html"><button class="button-main">Contact me</button></a>
             </nav>
         </header>
 
+        <!-- mobile-navigation -->
+        <section class="mobile-nav-bg">
+            <div onclick="closeNav()" class="close"></div>
+            <nav class="mobile-nav">
+                <ul>
+                    <li class="text-margin"><a class="text-white" href="about.html">About</a></li>
+                    <li class="text-margin"><a class="text-white" href="experience.html">Experience</a></li>
+                    <li><a class="text-white"href="portfolio.html">My portfolio</a></li>
+                </ul>
+                <div>
+                    <a href="contact.html"><button class="button-secondary">Contact me</button></a>
+                </div>
+            </nav>
+        </section>
+
         <!-- index hero section -->
-        <section class="hero-section global-container">
+        <section class="hero-section global-container global-padding">
+            <img class="hero-section-image" src="/assets/hero-image.svg" alt="">
             <article class="hero-section-content">
-                <h1 class="font-700 text text-grey">Hi there! I'm Mike.</h1>
+                <h1 class="font-700 text text-dark-blue header-margin">Hi there! I'm Mike.</h1>
+                <h3 class="text-grey">A front end developer with a background in SEO & digital marketing.</h3>
                 <p class="text-grey">
-                    A web developer in Sheffield with a background in SEO & digital marketing.
                     Take a look at my development experience in my portfolio and feel free to contact me about any opportunities!
                 </p>
                 <div class="hero-section-cta">
-                    <button class="">My portfolio</button>
-                    <button class="button-hero">Contact me</button>
+                    <button class="button-main">My portfolio</button>
+                    <button class="button-main">Contact me</button>
                 </div>
             </article>
-            <img class="hero-section-image" src="/assets/hero-image.svg" alt="">
         </section>
 
         <!-- my toolbox section -->
@@ -77,19 +94,29 @@
         <!-- my skills / experience section -->
         <section class="global-container global-padding text-center">
             <h2 class="text-grey">Skills & experience</h2>
+
             <section class="icon-block-section">
+
                 <article class="icon-block">
-                    <img src="/assets/web-development-icon.svg" alt="">
+                    <div class="icon-block-image-container">
+                        <img src="/assets/web-development-icon.svg" alt="">
+                    </div>
                     <h3>Web development</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, illum! Corrupti unde repellendus repudiandae omnis!</p>
                 </article>
+
                 <article class="icon-block">
-                    <img src="/assets/ux-design-icon.svg" alt="">
+                    <div class="icon-block-image-container">
+                        <img src="/assets/ux-design-icon.svg" alt="">
+                    </div>
                     <h3>UX focused web design</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, illum! Corrupti unde repellendus repudiandae omnis!</p>
                 </article>
+
                 <article class="icon-block">
-                    <img src="/assets/seo-icon.svg" alt="">
+                    <div class="icon-block-image-container">
+                        <img src="/assets/seo-icon.svg" alt="">
+                    </div>
                     <h3>SEO</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, illum! Corrupti unde repellendus repudiandae omnis!</p>
                 </article>
@@ -98,15 +125,15 @@
         </section>
 
         <!-- faq section -->
-        <section class="global-container global-padding">
-            <h2 class="text-grey text-center">Things you might like to know about me</h2>
+        <section class="global-container">
+            <h2 class="text-grey text-center">What you might like to know about me</h2>
 
             <section class="accordion-section">
                 
                 <section class="accordion-row">
                     <div class="title">
                     <h5>How did you get into web development?</h5>
-                    <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#345770" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                    <svg class="arrow" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#345770" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
                     </div>
                     <div class="answer">
                     <p>
@@ -118,7 +145,7 @@
                 <section class="accordion-row">
                     <div class="title">
                     <h5>What qualifications have you achieved?</h5>
-                    <svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#345770" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                    <svg class="arrow" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#345770" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
                     </div>
                     <div class="answer">
                     <p>
@@ -175,14 +202,13 @@
                     </div>
                 </section>
         
-                </section>
             </section>
-        </section>
+            </section>
     </main>
 
     <!-- footer area -->
     <footer>
-        <section class="footer-section global-container global-padding">
+        <section class="footer-section global-container">
             <nav>
                 <a class="text-white" href="about.html">About</a>
                 <a class="text-white" href="experience.html">Experience</a>
@@ -196,6 +222,8 @@
             </div>
         </section>    
     </footer>
+
     <script src="script.js"></script>
+
 </body>
 </html>

@@ -1,8 +1,11 @@
 .logo-container {
-    width: 175px;
+    width: 200px;
+    display: flex;
+    align-items: center;
 }
 .logo {
     width: 65px;
+    margin-right: 10px;
     padding: 15px;
     background-color: var(--dark-blue);
     border-radius: 50%;
@@ -19,6 +22,18 @@
     background-position: center;
     background-size: cover;
 }
+.close {
+    position: absolute;
+    top: 48px;
+    right: 30px;
+    height: 25px;
+    width: 25px;
+    z-index: 5;
+    background-image: url("../../assets/close.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 button {
     width: 150px;
     height: 45px;
@@ -27,31 +42,26 @@ button {
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
+    font-weight: 500;
 }
-.button-hero {
-    margin-left: 25px;
-    color:#fff;
-    background-color: var(--blue-grey);
-}
-
-.button-header {
+.button-main {
     border: 2px solid #345770;
     color: #345770;
     background-color: transparent;
 }
-.button-secondary:hover {
+.button-main:hover {
     color: #ffffff;
     background-color: #345770;
 }
-.faq-container {
+.button-secondary {
     width: 100%;
-    max-width: 500px;
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    padding: 150px 30px 50px 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+.button-secondary:hover {
+    color: #345770;
     background-color: #fff;
-    border-radius: 15px;
 }
 .accordion-row {
     margin-top: 20px;

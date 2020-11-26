@@ -3,7 +3,6 @@ let arrow = document.querySelectorAll(".arrow");
 
 for (let i = 0; i < faqRow.length; i++) {
     faqRow[i].addEventListener("click", () => {
-        console.log(faqRow[i]);
         let focusFaq = faqRow[i];
        focusFaq .classList.toggle("active");
        arrow[i].classList.toggle("arrow-active");
@@ -17,4 +16,12 @@ for (let i = 0; i < faqRow.length; i++) {
             answer.style.display = "block";
         }
     })
+}
+function openNav() {
+    document.querySelector(".hamburger").addEventListener("click", () => {
+        document.querySelector(".mobile-nav-bg").style.display = "block"; 
+    }) 
+}
+function closeNav() {
+    document.querySelector(".mobile-nav-bg").style.display = "none"; 
 }
