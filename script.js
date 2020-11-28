@@ -25,3 +25,29 @@ function openNav() {
 function closeNav() {
     document.querySelector(".mobile-nav-bg").style.display = "none"; 
 }
+
+// index tab section logic
+let tabNav = document.querySelectorAll(".tab-section-nav h5");
+let tabContent = document.querySelectorAll(".tab-section-content");
+
+let tabcontent1 = document.querySelector("#tabcontent1");
+let tabcontent2 = document.querySelector("#tabcontent2");
+let tabcontent3 = document.querySelector("#tabcontent3");
+
+function showTab(currentElement) {
+    let id = currentElement.id;
+    console.log(id);
+    if(id === "tab1") {
+        tabcontent1.style.display = "flex";
+        tabcontent2.style.display = "none";
+        tabcontent3.style.display = "none";
+    } else if (id === "tab2") {
+        tabcontent2.style.display = "flex";
+        tabcontent1.style.display = "none";
+        tabcontent3.style.display = "none";
+    } else if (id === "tab3") {
+        tabcontent3.style.display = "flex";
+        tabcontent2.style.display = "none";
+        tabcontent1.style.display = "none";
+    }
+}  

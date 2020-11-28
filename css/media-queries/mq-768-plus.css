@@ -12,8 +12,10 @@ p, a {
 }
 .hero-section-content {
     order: -1;
+    margin-bottom: 0px;
     text-align: left;
-    width: 40%;
+    width: 50%;
+    margin-right: 40px;
 }
 .hero-section-image {
     width: 50%;
@@ -43,8 +45,28 @@ p, a {
     width: 60%;
 }
 .portfolio-banner {
+    height: fit-content;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-align: left;
+}
+.tab-section-nav {
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--light-grey);
+}
+.tab-section-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+}
+.tab-image {
+    width: 50%;
+    margin-right: 40px;
 }

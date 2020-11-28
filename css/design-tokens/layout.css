@@ -13,10 +13,13 @@ main {
     padding-top: 75px;
     padding-bottom: 75px;
 }
-.header-margin {
-    margin-bottom: 20px;
+.text-margin-sm {
+    margin-bottom: 10px;
 }
-.text-margin {
+.text-margin-md {
+    margin-bottom: 25px;
+}
+.text-margin-lg {
     margin-bottom: 40px;
 }
 .position-rel {
