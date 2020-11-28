@@ -39,6 +39,12 @@ p, a {
     display: flex;
     justify-content: space-between;
 }
-.accordion-section {
+.accordion-group {
     width: 60%;
-}   
+}
+.portfolio-banner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}

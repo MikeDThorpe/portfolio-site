@@ -19,3 +19,6 @@ main {
 .text-margin {
     margin-bottom: 40px;
 }
+.position-rel {
+    position: relative;
+}
