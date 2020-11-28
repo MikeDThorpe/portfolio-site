@@ -28,15 +28,20 @@ function closeNav() {
 
 // index tab section logic
 let tabNav = document.querySelectorAll(".tab-section-nav h5");
-let tabContent = document.querySelectorAll(".tab-section-content");
-
 let tabcontent1 = document.querySelector("#tabcontent1");
 let tabcontent2 = document.querySelector("#tabcontent2");
 let tabcontent3 = document.querySelector("#tabcontent3");
 
 function showTab(currentElement) {
+    currentElement.classList.add("tab-active");
     let id = currentElement.id;
-    console.log(id);
+
+    for(let i = 0; i < tabNav.length; i++) {
+        if(tabNav[i].id !== id && tabNav[i].classList.contains("tab-active")) {
+            tabNav[i].classList.remove("tab-active");
+        }
+    }
+
     if(id === "tab1") {
         tabcontent1.style.display = "flex";
         tabcontent2.style.display = "none";
