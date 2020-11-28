@@ -53,7 +53,6 @@
     background-size: contain;
 }
 .icon-block-section {
-    margin-top: 75px;
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 75px;
@@ -79,7 +78,4 @@
 }
 .icon-block img {
     width: 100%;
-}
-.accordion-section {
-    margin-top: 50px;
 }

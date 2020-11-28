@@ -1,3 +1,7 @@
+p, a {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
 .hide-tablet {
     display: none;
 }
@@ -30,4 +34,11 @@
 .my-toolbox-content {
     width: 50%;
 }
-
+.accordion-block {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.accordion-section {
+    width: 60%;
+}   
