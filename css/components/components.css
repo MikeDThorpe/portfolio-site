@@ -1,7 +1,5 @@
 .logo-container {
     width: 200px;
-    display: flex;
-    align-items: center;
 }
 .logo {
     width: 65px;
@@ -78,7 +76,7 @@ button {
 }
 .accordion-container {
     width: 100%;
-    margin-top: 75px;
+    padding-top: 75px;
     background-color: #f2f2f2;
 }
 .accordion-section {
@@ -164,4 +162,23 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
+}
+.linkedin-popup-container {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.5);
+}
+.linkedin-popup {
+    padding: 30px;
+    text-align: center;
+    background-color: var(--blue-grey);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }

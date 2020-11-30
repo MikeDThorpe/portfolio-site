@@ -58,7 +58,6 @@ p, a {
     margin-bottom: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 30px;
     border-bottom: 1px solid var(--light-grey);
 }
 .tab-section-content {
@@ -71,6 +70,7 @@ p, a {
 .tab-image {
     width: 50%;
     margin-right: 50px;
+    margin-bottom: 0px;
 }
 .portfolio-grid {
     grid-template-columns:  1fr 1fr;
