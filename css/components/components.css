@@ -35,16 +35,16 @@
     background-size: cover;
 }
 button {
-    width: 150px;
     height: 45px;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
-    font-weight: 500;
+    cursor: pointer;
 }
 .button-main {
+    width: 150px;
     border: 2px solid #345770;
     color: #345770;
     background-color: transparent;
@@ -54,9 +54,23 @@ button {
     background-color: #345770;
 }
 .button-secondary {
+    width: 150px;
     border: 2px solid #fff;
     color: #fff;
     background-color: transparent;
+}
+.button-portfolio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    background-color: var(--blue-grey);
+    color: #fff;
+    font-weight: 400;
+}
+.button-portfolio:hover {
+    background-color: var(--dark-blue);
 }
 .button-secondary:hover {
     color: #345770;
@@ -128,4 +142,26 @@ button {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 50px;
+}
+.portfolio-card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 5px rgba(0,0,0,0.1);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.portfolio-card-cta {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
 }

@@ -10,8 +10,10 @@ main {
     padding-right: 30px;
 }
 .global-padding {
-    padding-top: 75px;
     padding-bottom: 75px;
+}
+.global-margin{
+    margin-bottom: 75px;
 }
 .text-margin-sm {
     margin-bottom: 10px;

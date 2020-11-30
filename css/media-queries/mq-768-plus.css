@@ -70,5 +70,9 @@ p, a {
 }
 .tab-image {
     width: 50%;
-    margin-right: 40px;
+    margin-right: 50px;
+}
+.portfolio-grid {
+    grid-template-columns:  1fr 1fr;
+    column-gap: 50px;
 }
