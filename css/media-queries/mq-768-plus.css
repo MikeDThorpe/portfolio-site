@@ -42,7 +42,8 @@ p, a {
     justify-content: space-between;
 }
 .accordion-group {
-    width: 60%;
+    width: 70%;
+    margin-top: 0px;
 }
 .portfolio-banner {
     height: fit-content;

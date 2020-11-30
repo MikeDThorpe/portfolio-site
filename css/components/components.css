@@ -62,14 +62,22 @@ button {
     color: #345770;
     background-color: #fff;
 }
-.accordion-section {
+.accordion-container {
     width: 100%;
     margin-top: 75px;
-    position: relative;
+    background-color: #f2f2f2;
+}
+.accordion-section {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: #f2f2f2ff;
 }
 .accordion-block {
     margin-top: 75px;
+}
+.accordion-group {
+    margin-top: 40px;
 }
 .accordion-row {
     padding: 25px;
