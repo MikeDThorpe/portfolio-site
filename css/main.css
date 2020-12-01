@@ -35,7 +35,7 @@
 .adobe {
     width: 60px;
     height: auto;
-    background-image: url("./assets/brand-logo/adobe-xd.svg");
+    background-image: url("../assets/brand-logo/adobe-xd.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -43,7 +43,7 @@
 .jest {
     width: 60px;
     height: auto;
-    background-image: url("./assets/brand-logo/jest.svg");
+    background-image: url("../assets/brand-logo/jest.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
