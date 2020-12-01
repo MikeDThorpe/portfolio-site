@@ -88,6 +88,9 @@ p, a {
     grid-template-columns:  1fr 1fr;
     column-gap: 50px;
 }
+.portfolio-card {
+    padding: 40px;
+}
 .form-first-row {
     width: 100%;
     display: grid;

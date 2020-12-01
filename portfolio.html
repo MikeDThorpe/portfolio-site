@@ -13,18 +13,28 @@
     <link rel="stylesheet" href="./css/components/header.css">
     <link rel="stylesheet" href="./css/components/footer.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="/css/media-queries/mq-768-plus.css" media="(min-width: 768px)">
-    <link rel="stylesheet" href="/css/media-queries/mq-1000-plus.css" media="(min-width: 1000px)">
+    <link rel="stylesheet" href="./css/media-queries/mq-768-plus.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="./css/media-queries/mq-1000-plus.css" media="(min-width: 1000px)">
     <title>A Web Developer Named Mike | Web Developer in Sheffield</title>
 </head>
 <body>
+     <!-- mobile-navigation -->
+     <nav class="mobile-nav hide-desktop">
+        <div onclick="closeNav()" class="close"></div>
+        <ul>
+            <li class="text-margin-md"><a class="text-white" href="about.html">About</a></li>
+            <li class="text-margin-md"><a class="text-white" href="https://www.linkedin.com/in/mike-thorpe-00440695/">Experience</a></li>
+            <li class="text-margin-lg"><a class="text-white"href="portfolio.html">My portfolio</a></li>
+        </ul>
+        <a href="contact.html"><button class="button-secondary">Contact me</button></a>
+    </nav>
     <main>
         <!-- header -->
         <header class="global-container">
             <a href="index.html">
                 <div class="logo-container">
                     <div class="logo">
-                        <img src="/assets/logo-code-solid.svg" alt="self-closing html tag">
+                        <img src="./assets/logo-code-solid.svg" alt="self-closing html tag">
                     </div>
                     <div>
                         <P style="line-height: 1; font-size: 1.2rem;" class="text-dark-blue font-700">A WEB DEV<br>NAMED MIKE</P>
@@ -40,19 +50,6 @@
                 <a href="contact.html"><button class="button-main">Contact me</button></a>
             </nav>
         </header>
-        <!-- mobile-navigation -->
-        <section class="mobile-nav-bg">
-            <div onclick="closeNav()" class="close"></div>
-            <nav class="mobile-nav">
-                <ul>
-                    <li class="text-margin-md"><a class="text-white" href="about.html">About</a></li>
-                    <li class="text-margin-md"><a class="text-white" href="https://www.linkedin.com/in/mike-thorpe-00440695/">Experience</a></li>
-                    <li class="text-margin-lg"><a class="text-white"href="portfolio.html">My portfolio</a></li>
-                </ul>
-                <a href="contact.html"><button class="button-secondary">Contact me</button></a>
-            </nav>
-        </section>
-
         <!-- portoflio title -->
         <section class="global-container global-padding">
             <h1 class="text-dark-blue font-700">My portfolio</h1>
@@ -98,7 +95,7 @@
         <section class="global-container global-margin">
             <section class="cta-banner text-center">
                 <h2 class="text-white">Get in touch!</h2>
-                <a href="portolfio.html"><button class="button-secondary">Contact me</button></a>
+                <a href="contact.html"><button class="button-secondary">Contact me</button></a>
             </section>
         </section>
     </main>
