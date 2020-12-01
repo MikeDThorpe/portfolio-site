@@ -26,14 +26,13 @@ header nav {
 .mobile-nav {
     height: 100vh;
     width: 255px;
-    padding: 125px 30px 30px 30px;
+    padding: 125px 30px;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 4;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: var(--dark-blue);
     animation-name: mobile-nav;
     animation-duration: 0.5s;
@@ -41,10 +40,10 @@ header nav {
 }
 @keyframes mobile-nav {
     from {
-        right: -100%;
+        width: 0px;
     }
     to {
-        right: 0px;
+        width: 255px;
     }
 } 
  @keyframes nav-background {

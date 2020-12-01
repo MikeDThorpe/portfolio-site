@@ -16,8 +16,14 @@ header nav {
     column-gap: 45px;
 }
 .footer-section {
+    align-items: flex-start;
+}
+.footer-links {
+    margin-top: 30px;
+    padding-top: 15px;
     flex-direction: row;
     justify-content: space-between;
+    border-top: 1px solid white;
 }
 footer nav {
     margin: 0;

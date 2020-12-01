@@ -1,5 +1,6 @@
 .logo-container {
-    width: 200px;
+    display: flex;
+    align-items: center;
 }
 .logo {
     width: 65px;
@@ -11,6 +12,9 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+.footer-logo {
+    background-color: #ffffff;
 }
 .hamburger {
     height: 25px;
@@ -34,14 +38,10 @@
 }
 button {
     height: 45px;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
     cursor: pointer;
 }
 .button-main {
+    font-weight: 700;
     width: 150px;
     border: 2px solid #345770;
     color: #345770;
@@ -55,6 +55,7 @@ button {
     width: 150px;
     border: 2px solid #fff;
     color: #fff;
+    font-weight: 700;
     background-color: transparent;
 }
 .button-portfolio {
@@ -128,7 +129,6 @@ button {
 }
 .portfolio-banner {
     width: 100%;
-    height: 275px;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -163,22 +163,27 @@ button {
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
 }
-.linkedin-popup-container {
+/* form stylings */
+.form-row, .form-first-row {
     width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    background-color: rgba(0,0,0,0.5);
 }
-.linkedin-popup {
-    padding: 30px;
-    text-align: center;
-    background-color: var(--blue-grey);
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+input {
+    width: inherit;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid var(--light-grey);
+}
+input:focus, input:active {
+    outline: none;
+    border-bottom: 2px solid var(--blue-grey);
+}
+textarea {
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 10px;
+    border: 2px solid var(--light-grey);
+}
+textarea:focus, textarea:active {
+    outline: none;
+    border: 2px solid var(--blue-grey);
 }

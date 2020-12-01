@@ -76,3 +76,9 @@ p, a {
     grid-template-columns:  1fr 1fr;
     column-gap: 50px;
 }
+.form-first-row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
