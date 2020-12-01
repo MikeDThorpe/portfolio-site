@@ -45,7 +45,7 @@ p, a {
     width: 70%;
     margin-top: 0px;
 }
-.portfolio-banner {
+.cta-banner {
     height: fit-content;
     flex-direction: row;
     justify-content: space-between;
