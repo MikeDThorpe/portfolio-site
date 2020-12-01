@@ -18,12 +18,14 @@ for (let i = 0; i < faqRow.length; i++) {
     })
 }
 function openNav() {
-    document.querySelector(".hamburger").addEventListener("click", () => {
-        document.querySelector(".mobile-nav-bg").style.display = "block"; 
-    }) 
+    document.querySelector(".mobile-nav").style.right = "0px";
+    if(document.querySelector(".close").style.display = "none") {
+        document.querySelector(".close").style.display = "block";
+    }
 }
 function closeNav() {
-    document.querySelector(".mobile-nav-bg").style.display = "none"; 
+    document.querySelector(".close").style.display = "none";
+    document.querySelector(".mobile-nav").style.right = "-255px"; 
 }
 
 // index tab section logic

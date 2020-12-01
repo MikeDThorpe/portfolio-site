@@ -10,47 +10,17 @@ header {
 header nav {
     display: none;
 }
-.mobile-nav-bg {
-    display: none;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 3;
-    background-color: rgba(0,0,0,0.5);
-    animation-name: nav-background;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-}
 .mobile-nav {
-    height: 100vh;
+    height: 100%;
     width: 255px;
     padding: 125px 30px;
     position: fixed;
     top: 0;
-    right: 0;
+    right: -255px;
     z-index: 4;
     display: flex;
     flex-direction: column;
     background-color: var(--dark-blue);
-    animation-name: mobile-nav;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-}
-@keyframes mobile-nav {
-    from {
-        width: 0px;
-    }
-    to {
-        width: 255px;
-    }
-} 
- @keyframes nav-background {
-    from {
-        opacity: 0;
-    }
-    top {
-        opacity: 0.8;
-    }
+    transition: 0.5s;
+    overflow-x: hidden;
 }
