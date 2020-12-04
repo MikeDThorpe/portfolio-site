@@ -7,7 +7,6 @@ for (let i = 0; i < faqRow.length; i++) {
        focusFaq .classList.toggle("active");
        arrow[i].classList.toggle("arrow-active");
 
-    //    open FAQ answer when title container is clicked
        let answer = focusFaq.nextElementSibling;
         console.log(answer);
         if(answer.style.display === "block") {
@@ -24,13 +23,12 @@ function closeNav() {
     document.querySelector(".mobile-nav").style.right = "-255px";
 }
 
-// index tab section logic
 let tabNav = document.querySelectorAll(".tab-section-nav h5");
 let tabcontent1 = document.querySelector("#tabcontent1");
 let tabcontent2 = document.querySelector("#tabcontent2");
 let tabcontent3 = document.querySelector("#tabcontent3");
 
-function showTab(currentElement) {
+function showTab (currentElement) {
     currentElement.classList.add("tab-active");
     let id = currentElement.id;
 

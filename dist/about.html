@@ -45,32 +45,129 @@
             <div onclick="openNav()"class="hamburger hide-desktop"></div>
             <nav class="text-blue-grey font-500">
                 <a class="text-grey" href="about.html">About</a>
-                <a class="text-grey" target="_blank" href="https://www.linkedin.com/in/mike-thorpe-00440695/">Experience</a>
-                <a class="text-grey" href="portfolio.html">My portfolio</a>
+                <a class="text-grey"href="https://www.linkedin.com/in/mike-thorpe-00440695/">Experience</a>
+                <a class="text-grey"href="portfolio.html">My portfolio</a>
                 <a href="contact.html"><button class="button-main">Contact me</button></a>
             </nav>
         </header>
-
-
-
-        <section class="global-container global-padding">
-            <h1 class="text-dark-blue font-700 text-margin-sm">Get in touch</h1>
-            <p class="text-grey">I'd love to hear about any opportunities you currently have for a a web developer. You can drop me an email on the form below or message me directly on <a class="font-500 text-grey" href="https://www.linkedin.com/in/mike-thorpe-00440695/">Linkedin.</a></p>
+        <!-- about hero section -->
+        <section class="hero-section global-container global-margin">
+            <img class="hero-section-image" src="./assets/about-hero.svg" alt="">
+            <article class="hero-section-content">
+                <h1 class="font-700 text text-dark-blue header-margin">Get to know me...</h1>
+                <p class="text-grey">Based in Sheffield, I've studied with The Developer Academy to transition from an SEO professional to a front end web developer. </p>
+                <p class="text-grey">I use the core front end lanuages HTML, CSS & Javascript, as well as the React and Bootstrap framweworks to build exciting websites and applications.</p>
+                <p class="text-grey">I am interested in front end development but would also like to progress with experience building SAAS applications or app development.</p>
+                <p class="font-500 text-grey">Basically, if it provides value for others I want to build it!</p>
+            </article>
         </section>
-
-        <!-- form fields -->
-            <form id="contact-form" class="global-container global-padding" action="https://usebasin.com/f/75a8173367ac" method="POST" accept-charset="UTF-8">
-                <div class="form-first-row">
-                    <input type="text" name="firstname" id="name" placeholder="Name" required>
-                    <input type="text" name="company" id="company" placeholder="Company" required>
-                </div>
-                <input class="form-row" type="email" name="email" id="email" placeholder="Email Address">
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
-                <input style="display: none;" type="text" name="for-bots">
-            <button type="submit" class="button-main">Send</button>
-            </form>
+        
+        <!-- link to portfolio -->
+        <section class="global-container global-margin">
+            <section class="cta-banner">
+                <h2 class="text-white header-margin">Take a look at my work</h2>
+                <a href="portolfio.html"><button class="button-secondary">View portfolio</button></a>
+            </section>
+        </section>
     </main>
-    <!-- footer area -->
+        <!-- accordion section -->
+        <section class="accordion-container global-padding">
+
+            <section class="global-container accordion-section">
+                
+                <h2 class="text-center text-grey">
+                    What you might like to know about me
+                </h2>
+
+                <!-- professional information -->
+                <section class="accordion-block">
+                    <h3 class="text-dark-blue font-700">the proffesional</h3>
+                    <section class="accordion-group">
+                    
+                        <section class="accordion-row header-margin text-margin-sm">
+                            <div class="title">
+                            <h5 class="text-white">What qualfications have you achieved?</h5>
+                            <svg class="arrow" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#ffff" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                            </div>
+                            <div class="answer">
+                            <p>
+                                I have a First Class Honours English & Creative Writing degree from Sheffield Hallam University. I also have an Digital Content Strategy training certificate that's accredited by the Institute for Digital Marketing. 
+                            </p>
+                            </div>
+                        </section>
+
+                        <section class="accordion-row header-margin text-margin-sm">
+                            <div class="title">
+                            <h5 class="text-white">How did you get into web development?</h5>
+                            <svg class="arrow" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#ffff" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                            </div>
+                            <div class="answer">
+                            <p>
+                                
+                            </p>
+                            </div>
+                        </section>
+
+                        <section class="accordion-row">
+                            <div class="title">
+                            <h5 class="text-white">How did you get into web development?</h5>
+                            <svg class="arrow" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#ffff" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                            </div>
+                            <div class="answer">
+                            <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quo voluptatum vel, ratione quas minima illo tempore sint ad labore odio nostrum et dolores natus fugiat modi numquam officiis eum!
+                            </p>
+                            </div>
+                        </section>
+                
+                    </section>
+                </section>
+
+                <!-- personal information -->
+                <section class="accordion-block">
+                    <h3 class="text-dark-blue font-700">the personal</h3>
+                    <section class="accordion-group">
+                        <section class="accordion-row header-margin text-margin-sm">
+                            <div class="title">
+                            <h5 class="text-white">What do you enjoy to do in your spare time?</h5>
+                            <svg class="arrow" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#ffff" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                            </div>
+                            <div class="answer">
+                            <p>
+                                I'm a sporty guy and loving playing golf, football and Snooker. I try to get out into the Peak District for a walk also when I can. In the past i've been a drummer too, but now i'm without a kit so I'm left with incessantly slapping my legs to make up for it.
+                            </p>
+                            </div>
+                        </section>
+                        <section class="accordion-row text-margin-sm">
+                            <div class="title">
+                            <h5 class="text-white">How did you get into web development?</h5>
+                            <svg class="arrow" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#ffff" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                            </div>
+                            <div class="answer">
+                            <p>
+                                Admittedly I wasn't what you'd call techy as a kid. I learnt HTML & CSS at university as a hobby. Since then i've picked up a few skills on the job working in SEO, but I have also taken a front-end developer Udemy course and recently graduated from The Developer Academy Bootcamp.
+                            </p>
+                            </div>
+                        </section>
+                        <section class="accordion-row">
+                            <div class="title">
+                            <h5 class="text-white">How did you get into web development?</h5>
+                            <svg class="arrow" width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 .799l4 4 4-4" stroke="#ffff" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>
+                            </div>
+                            <div class="answer">
+                            <p>
+                                Admittedly I wasn't what you'd call techy as a kid. I learnt HTML & CSS at university as a hobby. Since then i've picked up a few skills on the job working in SEO, but I have also taken a front-end developer Udemy course and recently graduated from The Developer Academy Bootcamp.
+                            </p>
+                            </div>
+                        </section>
+                
+                    </section>
+                </section>
+
+            </section>
+
+        </section>
+        <!-- footer area -->
     <footer>
         <section>
             <section class="footer-section global-container">
@@ -168,6 +265,7 @@
             </section>
         </section>    
     </footer>
-    <script src="script.js"></script>
+    <script src="index.js"></script>
+
 </body>
 </html>
