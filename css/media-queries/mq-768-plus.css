@@ -85,7 +85,8 @@ p, a {
     margin-bottom: 0px;
 }
 .tab-content {
-width: 50%;
+    width: 50%;
+}   
 .portfolio-grid {
     grid-template-columns:  1fr 1fr;
     column-gap: 50px;
