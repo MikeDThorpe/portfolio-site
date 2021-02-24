@@ -37,7 +37,7 @@
     background-size: cover;
 }
 button {
-    height: 45px;
+    height: 50px;
     cursor: pointer;
 }
 .button-main {
@@ -77,22 +77,17 @@ button {
 }
 .accordion-container {
     width: 100%;
-    padding-top: 75px;
-    background-color: #f2f2f2;
-}
-.accordion-section {
-    width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    background-color: #f2f2f2ff;
 }
 .accordion-block {
-    margin-top: 75px;
-}
-.accordion-group {
-    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
 }
 .accordion-row {
+    width: 100%;
     padding: 25px;
     background-color: var(--blue-grey);
     color: #fff;

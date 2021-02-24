@@ -48,14 +48,9 @@ p, a {
 .my-toolbox-content {
     width: 50%;
 }
-.accordion-block {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-}
-.accordion-group {
-    width: 70%;
-    margin-top: 0px;
+.accordion-row {
+    width: 650px;
+    padding-right: 30px;
 }
 .cta-banner {
     height: fit-content;

@@ -6,10 +6,8 @@
     margin-top: 25px;
 }
 .hero-section-cta {
-    width: fit-content;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 15px;
+    display: flex;
+    justify-content: center;
 }
 .hero-section-image {
     width: 100%;
@@ -32,22 +30,34 @@
     width: 50px;
     color: #fff;
 }
-.adobe {
-    width: 60px;
-    height: auto;
-    background-image: url("../assets/brand-logo/adobe-xd.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+#bootstrapLogo:hover {
+    color: #563d7c;
 }
-.jest {
-    width: 60px;
-    height: auto;
-    background-image: url("../assets/brand-logo/jest.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+#htmlLogo:hover {
+    color: #F16529;
 }
+#cssLogo:hover {
+    color: #2965F1;
+}
+#javascriptLogo:hover {
+    color: #F7E018;
+}
+#nodeLogo:hover {
+    color: #539E43;
+}
+#reactLogo:hover {
+    color: #61DBFB
+}
+#gitLogo:hover {
+    color: #F05030;
+}
+#svg24:hover {
+    color: #C63D14;
+}
+#adobeLogo:hover {
+    color: #FF26BE;
+}
+
 .tab-section-nav {
     width: 100%;
     text-align: center;
