@@ -18,7 +18,7 @@
     -o-border-radius: 50%;
 }
 .footer-logo {
-    background-color: #ffffff;
+    border: 3px solid #fff;
 }
 .hamburger {
     height: 25px;
