@@ -23,10 +23,10 @@ header nav {
     align-items: center;
 }
 header ul {
-    display: flex;
-}
-header ul li {
+    width: 400px;
     margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 .icon-block-section {
     grid-template-columns:  1fr 1fr 1fr;

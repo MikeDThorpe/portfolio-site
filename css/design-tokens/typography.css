@@ -59,7 +59,3 @@ p, a, li {
 .text-center {
     text-align: center;
 }
-/* states */
-a:hover {
-    font-weight: 700;
-}
